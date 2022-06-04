@@ -1,0 +1,11 @@
+:root {
+  --color-grey: #babbc5;
+  --color-white: #ffffff;
+  --color-coral: #FF4343;
+  --color-red: red;
+}
+
+.container {
+  max-width: 1510px;
+  margin: 0 auto;
+}
