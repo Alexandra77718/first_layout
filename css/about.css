@@ -83,11 +83,11 @@ right: 0;
 .about__button {
     display: flex;
     justify-content: center;
+    margin-top: 5.3%;
 }
 .button {
     width: 24.5%;
     height: 80px;
-    margin-top: 5.3%;
     display: flex;
     justify-content: center;
     align-items: center;
