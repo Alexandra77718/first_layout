@@ -26,6 +26,8 @@ body {
    width: 134px;
    position: relative;
    margin: 20px;
+   display: flex;
+   justify-content: center;
 }
 
 .header__nav_link {
@@ -41,7 +43,7 @@ body {
 .header__nav_items::after {
     content: "";
     position: absolute;
-  left: -10px;
+  left: 0px;
   bottom: -40px;
   right: 80%;
   height: 3px;
@@ -54,7 +56,7 @@ transition: 1s;
 right: 0;
 }
 .header__nav_items:active::after {
-  left: -10px;
+  left: 0px;
   bottom: -40px;
   right: 0;
   height: 3px;
@@ -62,6 +64,7 @@ right: 0;
   opacity: 1;
   transition: 0s;
 }
+
 .about__title {
     width: 77%;
     height: 10%;
